@@ -1,0 +1,26 @@
+@startuml
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam defaultTextAlignment center
+skinparam BackgroundColor white
+
+
+rectangle "Interface\n\n• REST API\n• gRPC\n• UI\n• Controllers\n• Presenters" as Interface {
+
+    rectangle "Infrastructure\n\n• Repository\n• Message Bus\n• File Storage\n• External APIs\n• Logging" as Infrastructure {
+
+        rectangle "Application\n\n• Use Cases\n• Commands\n• Handlers\n• Repository Interfaces" as Application {
+
+            rectangle "Domain\n\n• Entities\n• Value Objects\n•Contracts" as Domain {
+
+            }
+
+        }
+
+    }
+
+}
+
+
+
+@enduml
