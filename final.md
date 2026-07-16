@@ -229,6 +229,7 @@ field__not_in	NOT IN
 field__is_null	IS NULL
 field__like	LIKE
 field__ilike	ILIKE
+
 7. Generic Repository (2 минуты)
 
 Показать базовый класс.
